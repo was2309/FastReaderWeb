@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    background-color:#24BFF0;
+}
+
+.logo img {
+    cursor: pointer;
+    min-height: 12vh;
+    max-height: 12vh;
+    padding-top: 11%;
+}
+
+.menu{
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.menu li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    transition: .5s ease;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.menu li a.active,
+.menu li a:hover {
+    background:#d5f0ff;
+    color: #1570c5;
+}
+
+
+/*============================================================================================================ 
+ ============================================== SECTION 1 ====================================================
+ ============================================================================================================= */
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #39c1eb;
+    height: 35vh;
+}
+
+.textWelcome{
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    color: #fff;
+    text-shadow: 2px 2px 4px #00000070;
+    padding-top: 1%;
+}
+.enterText{
+    padding: 5% 20%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: #fff;
+    text-shadow: 2px 2px 4px #00000070;
+}
+
+#textinput{
+    border-radius: 5px;
+    border: medium #fff;
+    font-family: 'Montserrat', sans-serif;
+    color:#23abd4 ;
+    outline: none;
+}
+
+#textinput :-moz-placeholder,
+#textinput ::-webkit-input-placeholder{
+    font-family: 'Montserrat', sans-serif;
+    color: #39c1eb;
+}
+
+.s1NumberInput{
+    padding: 2% 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: #fff;
+    text-shadow: 2px 2px 4px #00000070;
+}
+
+#wpm{
+    border: #fff;
+    border-radius: 2px;
+    color: #23abd4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*============================================================================================================ 
+ ============================================== SECTION 2 ====================================================
+ ============================================================================================================= */
+
+ .section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #39c1eb;
+    height: 55vh;
+}
+
+.output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+    
+}
+
+.backgroundOutput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 30vw;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.backgroundOutput p{
+    background-color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size:50px;
+}
+
+.buttons{
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 50vh;
+}
+
+#playbtn{
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5%;
+    color: #28ac0e;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+}
+
+#playbtn :hover{
+    color: #fff;
+    background-color: #28ac0e;
+    cursor: pointer;
+
+}
+
+.playbutton :hover{
+    color: #fff;
+    background-color: #28ac0e;
+    cursor: pointer;
+}
+
+#stopbtn{
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5%;
+    color: #cc1616;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+}
+
+#stopbtn :hover{
+    color: #fff;
+    background-color: #cc1616;
+    cursor: pointer;
+
+}
+
+
+
+
